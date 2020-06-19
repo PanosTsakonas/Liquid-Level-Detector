@@ -5,7 +5,7 @@ This project aims to create a Liquid Level Detector system with two Time of Flig
 Below is the pinout diagramm for the microcontroller:
 https://grobotronics.com/images/companies/1/NodeMCU-32S-pinout.jpg?1567071865358
 
-The current version of the code takes as default values the width and length of the each individual tank and measures the height using the VL53L0X sensors. Since the tanks are orthogonal parallelogramms then to calculate the volume simply multiply the 3 dimensions. In order to make the whole system usable for every tank and not messing with the code every time it would be a good idea to make the web server request values for width and length before getting the volume. This can be achieved using the ESPAsyncWebServer.h library alongside some extra lines of code. In this project however, the 2 dimensions of the tanks were given in the code but if anyone is interested in using the above-mentioned library and make the change it is completely fine.
+The current version of the code takes as default values the width and length of each individual tank and measures the height using the VL53L0X sensors. Since the tanks are orthogonal parallelogramms then to calculate the volume simply multiply the 3 dimensions. In order to make the whole system usable for every tank and not messing with the code every time it would be a good idea to make the web server request values for width and length before getting the volume. This can be achieved using the ESPAsyncWebServer.h library alongside some extra lines of code. In this project however, the 2 dimensions of the tanks were given in the code but if anyone is interested in using the above-mentioned library and make the change it is completely fine.
 
 
 # VL53L0X Time of Flight sensor
